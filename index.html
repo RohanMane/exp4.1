@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-SHIRT SHOPPING</title>
+    <style>
+        body {
+            background-color: bisque;
+        }
+    </style>
+
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <h2 style="background-color: aqua; color: brown;">READY TO BUY SOME OF THE BEST T-SHIRTS AT EXTEMELY CHEAP PRICES
+    </h2>
+    <strong>JUST FILL THE DETAILS BELOW AND GET STARTED</strong>
+    <br><br>
+    <form action="" name="myForm" >
+        <div>
+            TAGLINE ON T-SHIRT : <input type="text" name="tagline"/>
+        </div>
+        <br>
+
+        <div>
+            COLOR OF T-SHIRT : <input type="text" name="color"/>
+        </div>
+        <br>
+
+        <div>
+            SIZE ON T-SHIRT : 
+            <select name="size">
+                <option value="SMALL">SMALL</option>
+                <option value="LARGE">LARGE</option>
+                <option value="X-LARGE">X-LARGE</option>
+                <option value="XX-LARGE">XX-LARGE</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            QUANTITY OF T-SHIRT : <input type="number" name="quantity"/>
+        </div>
+        <br>
+
+        
+        <div>
+            COST OF T-SHIRT : <input type="text" name="cost"/>
+        </div>
+        <br>
+
+        <div>
+            DATE OF DELIVERY : <input type="date" name="date"/>
+        </div>
+        <br>
+
+        <div>
+            NAME OF CUSTOMER : <input type="text" name="name"/>
+        </div>
+        <br>
+
+        <div>
+            PHONE NO. OF CUSTOMER : <input type="text" name="phone" maxlength="10" minlength="10"/>
+        </div>
+        <br>
+
+        <div>
+            EMAIL-ID OF CUSTOMER : <input type="email" name="email"/>
+        </div>
+        <br>
+
+        <div>
+            ADDRESS OF DELIVERY : <br>
+            <textarea name="address" rows="10" cols="40"></textarea>
+        </div>
+        <br>
+        <br>
+
+        <button type="reset" style=" margin-left: 80px;">RESET NOW</button> 
+        <input type="button" value="SUBMIT NOW" onclick="validateForm();" style="margin-top:30px ; margin-left: 80px;"></input>
+
+    </form>
+
+</body>
+
+</html>
